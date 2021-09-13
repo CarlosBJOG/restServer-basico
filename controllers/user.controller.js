@@ -4,7 +4,7 @@ const usuariosPut = (req, res = response) => {
 
     const id = req.params.id;
 
-    res.status(400).json( {
+    res.json( {
         ok: true, //esta opcion es opcional
         msg: 'put API - Controller',
         id
